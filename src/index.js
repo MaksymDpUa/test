@@ -6,3 +6,13 @@ import { founds } from "./data";
 //   import.meta.url
 // );
 console.log(founds);
+// function renderMoreMarkup() {
+//   if(window.innerWidth < 768) {
+//     renderMarkup(markup, startIndex, findEndIndex(startIndex + 1));
+//     return
+//   }
+//   renderMarkup(markup, startIndex, findEndIndex(startIndex));
+// }
+
+
+// supportBtnEl.addEventListener('click', renderMoreMarkup);
