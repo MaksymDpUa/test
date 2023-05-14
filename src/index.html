@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -8,35 +8,139 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <div class="founds">
-      <h2 class="founds__title">Support Ukraine</h2>
-      <ul class="founds__list">
-        <li>
-          <!-- <div class="image-box"> -->
-          <img src="./images/image 3.png" alt="" class="test" />
+    ❗️❗️❗️ Add partials like so for every page
+ <div class="swiper support__list">
+                <div class="swiper-wrapper js-support_list"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </aside>
+      <main>
+        <div class="container">
+          <div class="category">
+            <h1 class="category__name js-category-name">
+              Best Sellers
+              <span class="category_name category__name--violet">Books</span>
+            </h1>
+            <ul class="category__list js-all-books"></ul>
+          </div>
+  </body>
+</html> -->
+-->
 
-          <!-- </div> -->
-        </li>
-      </ul>
-    </div>
-    <!-- <svg width="20" height="20">
-                            <use href="./images/symbol-defs.svg#icon-internationalmedicalcorps"></use></svg
-                        > -->
-    <!-- 
-    <img
-      class="image1"
-      src="https://www.sccpre.cat/mypng/detail/122-1229311_bird-feathers-flying-macaw-wings-birds-with-white.png"
-      width="500px"
-      height="250px"
-      alt="filter applied"
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
     />
-    <img
-      class="image2"
-      src="https://www.sccpre.cat/mypng/detail/122-1229311_bird-feathers-flying-macaw-wings-birds-with-white.png"
-      width="500px"
-      height="250px"
-      alt="filter applied"
-    /> -->
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./sass/index.scss" />
+    <script type="module" src="./index.js"></script>
+    <!-- Demo styles -->
+    <!-- <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style> -->
+  </head>
+
+  <body>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">Slide 4</div>
+        <div class="swiper-slide">Slide 5</div>
+        <div class="swiper-slide">Slide 6</div>
+        <div class="swiper-slide">Slide 7</div>
+        <div class="swiper-slide">Slide 8</div>
+        <div class="swiper-slide">Slide 9</div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <!-- <script>
+      var swiper = new Swiper('.mySwiper', {
+        direction: 'vertical',
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+    </script> -->
   </body>
 </html>
+
+
+
+
+<!-- з суппорту  -->
+
+<!-- <section class="support">
+  <div class="support__container">
+    <div class="support__header-container">
+      <h2 class="support__header-title">Support Ukraine</h2>
+      <img
+        src="./images/Emblem_of_Ukraine.png"
+        alt="Emblem of Ukraine"
+        class="support__icon"
+      />
+    </div>
+    <ul class="js-support_list support__list"></ul>
+  </div>
+</section> -->
