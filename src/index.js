@@ -178,3 +178,7 @@ const swiper = new Swiper('.mySwiper', {
 //     modules: [Navigation, Pagination],
     
 //   });
+
+
+const a = [];
+console.log(a.length);
